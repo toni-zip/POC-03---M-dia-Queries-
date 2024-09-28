@@ -94,4 +94,115 @@ footer {
     position: fixed;
 }
 
+/* Media Queries */
 
+/* Print */
+@media print {
+    header, nav, footer {
+        display: none;
+    }
+
+    .banner, .quadro, .conteudo {
+        padding: 10px;
+        margin: 0;
+    }
+
+    .quadro-item {
+        height: auto;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+
+    .conteudo {
+        font-size: 10pt;
+        color: black;
+    }
+
+    .quadro {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Smartphones */
+@media (max-width: 600px) {
+    header {
+        background-color: var(--quadrocolormobile); 
+    }
+
+    .quadro {
+        grid-template-columns: 1fr;
+    }
+
+    .conteudo {
+        font-size: 14px;
+    }
+
+    footer {
+        background-color: var(--quadrocolormobile);
+    }
+}
+
+/* Tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+
+    header {
+        background-color: var(--quadrocolortablet); 
+    }
+
+    .quadro {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .conteudo {
+        font-size: 16px;
+    }
+
+    footer {
+        background-color: var(--quadrocolortablet);
+    }
+
+}
+
+/* Desktops */
+
+@media (min-width: 901px) {
+    .quadro {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .conteudo {
+        font-size: 18px;
+    }
+}
+
+/* Orientação Paisagem (Landscape) */
+@media (orientation: landscape) {
+    body {
+        font-size: 18px;
+    }
+
+    .banner {
+        padding: 20px;
+    }
+
+    .quadro-item {
+        height: 120px;
+    }
+}
+
+/* Orientação Retrato (Portrait) */
+@media (orientation: portrait) {
+    body {
+        font-size: 16px;
+    }
+
+    .banner {
+        padding: 40px;
+    }
+
+    .quadro-item {
+        height: 180px;
+    }
+}
