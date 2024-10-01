@@ -119,8 +119,10 @@ Os resultado devem ser algo parecido com:
 Para Desktop
 
 ![Midia_Querie_Tablet](https://github.com/user-attachments/assets/71103fe3-18bf-405c-a7d4-f5e471b09deb)
+
 Para Tablets
 
 ![Midia_Querie_Smartphone](https://github.com/user-attachments/assets/a5222681-3179-4f6e-a721-cbae9c041a59)
+
 Para Celulares
 
