@@ -43,6 +43,32 @@ A estrutura do layout é composta por:
 
 No arquivo CSS, utilizamos Media Queries para detectar a largura da tela e a orientação do dispositivo, aplicando estilos específicos para cada situação.
 
+### Exemplo de Media Query para Tablet:
+
+```css
+@media (min-width: 601px) and (max-width: 900px) {
+
+    header {
+        background-color: var(--quadrocolortablet); 
+    }
+
+    .quadro {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .conteudo {
+        font-size: 16px;
+    }
+
+    footer {
+        background-color: var(--quadrocolortablet);
+    }
+
+}
+```
+
+Neste exemplo, quando a largura da tela é de no máximo 900px (smartphones), o cabeçalho muda de cor, o layout do quadro é reorganizado em duas coluna e o tamanho da fonte é alterado.
+
 ### Exemplo de Media Query para Smartphone:
 
 ```css
@@ -87,6 +113,5 @@ Aqui, ao imprimir a página, o cabeçalho, navegação e rodapé são ocultados,
 2. Redimensione a janela ou use ferramentas de desenvolvedor para testar o comportamento responsivo em diferentes tamanhos de tela e orientações.
 3. Use a opção de impressão do navegador para verificar o estilo específico de impressão.
 
----
 
-Essa Prova de Conceito ilustra como **Media Queries** tornam uma página flexível e preparada para diferentes contextos de uso, proporcionando uma ótima experiência ao usuário em diversos dispositivos e situações.
+
