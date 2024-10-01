@@ -27,8 +27,16 @@ A estrutura do layout é composta por:
 
 ### Exemplo de Estilo Dinâmico:
 - No **desktop**, o quadro exibe quatro colunas.
+
+  ![Media_Querie_Desktop](https://github.com/user-attachments/assets/b2dcc000-7429-4907-97e0-9e1b29822ec6)
+
 - No **tablet**, o layout muda para duas colunas.
+
+  ![Midia_Querie_Tablet](https://github.com/user-attachments/assets/71103fe3-18bf-405c-a7d4-f5e471b09deb)
+
 - Em **smartphones**, os itens são exibidos em uma única coluna.
+
+  ![Midia_Querie_Smartphone](https://github.com/user-attachments/assets/a5222681-3179-4f6e-a721-cbae9c041a59)
 
 ---
 
@@ -112,17 +120,4 @@ Aqui, ao imprimir a página, o cabeçalho, navegação e rodapé são ocultados,
 1. Abra o arquivo `index.html` em um navegador.
 2. Redimensione a janela ou use ferramentas de desenvolvedor para testar o comportamento responsivo em diferentes tamanhos de tela e orientações.
 3. Use a opção de impressão do navegador para verificar o estilo específico de impressão.
-
----
-Os resultado devem ser algo parecido com:
-![Media_Querie_Desktop](https://github.com/user-attachments/assets/b2dcc000-7429-4907-97e0-9e1b29822ec6)
-Para Desktop
-
-![Midia_Querie_Tablet](https://github.com/user-attachments/assets/71103fe3-18bf-405c-a7d4-f5e471b09deb)
-
-Para Tablets
-
-![Midia_Querie_Smartphone](https://github.com/user-attachments/assets/a5222681-3179-4f6e-a721-cbae9c041a59)
-
-Para Celulares
 
